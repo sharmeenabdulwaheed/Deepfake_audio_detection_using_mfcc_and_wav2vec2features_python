@@ -1,2 +1,2 @@
 # Deepfake_audio_detection_using_mfcc_and_wav2vec2features_python
-In this project, I am training ML model to predict a voice as real or fake after extracting its mfcc and wav2vec2 features. 
+In this project, I am training ML model to predict a voice as real or fake after extracting its mfcc and wav2vec2 features. I have combined both mfcc and wav2vec2 features of real and fake audios and combined the two features prior to the training of ML model. Svm and random forest ML algorithm is used here but random forest help achieve greater test accuracy of upto 97%. We have then tested the model on new audio files as well
